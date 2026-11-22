@@ -12,15 +12,17 @@ export default function HeroSection() {
           </h1>
 
           <p className="justify-copy max-w-2xl text-lg leading-8 text-[#e5f4f5] md:text-xl">
-            My name is Tobias Bech Pihl and I have recently completed my
-            Master of Science in Engineering in Game Development and Learning
-            Technology. Through my studies, I have developed a broad technical
-            profile spanning software development, interactive systems, XR, and
-            user-centered digital experiences, with a focus on building
-            solutions that combine technical depth with practical usability.
-            I am particularly motivated by projects where technology, design,
-            and real-world impact meet — whether through web platforms,
-            immersive applications, or applied digital learning experiences.
+            I’m Tobias Bech Pihl, an MSc in Engineering in Game Development and
+            Learning Technology. I build interactive simulations, web and XR
+            applications, and learning-driven software systems where solid
+            engineering meets practical usability.
+          </p>
+          <p className="justify-copy max-w-2xl text-lg leading-8 text-[#e5f4f5] md:text-xl">
+            My work spans modular software development, system integration,
+            testing and quality evaluation, and instructional design. Whether
+            I’m prototyping a training simulation, structuring learning workflows,
+            or refining an existing codebase, I focus on turning complex
+            requirements into clear, reliable tools that work for real users.
           </p>
         </div>
       </div>
