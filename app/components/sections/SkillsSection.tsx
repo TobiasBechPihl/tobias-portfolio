@@ -21,8 +21,7 @@ export default function SkillsSection() {
   return (
     <section id="skills" className="space-y-10 scroll-mt-6" aria-labelledby="skills-heading">
       <div className="space-y-3">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#775f48]">On the shore</p>
-        <h2 id="skills-heading" className="text-3xl font-bold tracking-tight md:text-5xl">Skills collected along the way</h2>
+        <h2 id="skills-heading" className="text-3xl font-bold tracking-tight md:text-5xl">Skills</h2>
         <p className="max-w-2xl leading-7 text-[#3f505a]">
           Technical tools, testing experience and ways of working that connect the projects above.
         </p>

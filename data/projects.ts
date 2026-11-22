@@ -4,8 +4,11 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "ZooDex - Learning App for Zoo Visitors enhanced by image recognition",
-    description:
-      "ZooDex explored how computer vision and gamification could support learning and engagement in a real-world zoo setting. The project combined AI-assisted animal recognition with interactive educational mechanics to create a mobile learning experience for visitors. The work included concept development, software implementation, stakeholder collaboration, user testing, and evaluation of learning and engagement outcomes in practice.",
+    description: [
+      "Zoo visitors need a way to learn about the animals they encounter during a visit.",
+      "We built ZooDex, a mobile app that recognizes animals with computer vision and connects each encounter to interactive learning activities.",
+      "Testing the prototype during a real zoo visit gave us a way to evaluate visitor engagement and learning in practice.",
+    ],
     technologies: [
       "Python",
       "YOLO Computer Vision",
@@ -28,8 +31,11 @@ export const projects: Project[] = [
   {
     id: 2,
     title: "Paris à la Danmark - Live Web page",
-    description:
-      "Designed and developed a live web platform for the Paris à la Danmark race event, focused on delivering a practical solution for a real stakeholder. The project demonstrates real-world web development, stakeholder dialogue, iterative improvement, and responsibility for a functioning webpage. It highlights experience with translating requirements into a usable digital product while maintaining and further developing the platform over time.",
+    description: [
+      "The Paris à la Danmark race needed a public website that could evolve as the organizers' needs changed.",
+      "I built the site in Next.js and refined it through ongoing conversations with the organizers.",
+      "The event gained a live website that I could maintain and update as new needs came up.",
+    ],
     technologies: [
       "React",
       "TypeScript",
@@ -47,8 +53,11 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "XR Fire Safety Training - Immersive VR Training Simulation for Healthcare Staff",
-    description:
-      "Developed as part of an interdisciplinary XR project focused on training healthcare staff in fire response procedures. Built as a VR application, the solution used immersive interaction and scenario-based design to support practical training in a realistic but controlled virtual environment. The project emphasized user-centered development, collaboration across disciplines, and the translation of real training needs into an applied XR learning experience.",
+    description: [
+      "Healthcare staff need a safe way to rehearse how to respond to a fire.",
+      "Our interdisciplinary team built an interactive VR simulation based on healthcare fire-response procedures.",
+      "The simulation gives staff a controlled environment to practise those procedures in realistic scenarios.",
+    ],
     technologies: [
       "Unity",
       "C#",
@@ -68,8 +77,11 @@ export const projects: Project[] = [
   {
     id: 4,
     title: "Automatic Window Opener with Digital Twin",
-    description:
-      "Developed a small-scale automation project combining physical sensing, control logic, and a digital twin concept to simulate and monitor system state. The solution used environmental inputs such as temperature and humidity to determine when a window should open or close, linking real-world sensor data to a digital representation of the system. The project demonstrates practical experience with hardware-software integration, automation logic, and physically grounded system design.",
+    description: [
+      "An automated window needs to respond to indoor conditions and make its current state visible.",
+      "I built a controller that uses temperature and humidity readings to operate the window and feeds sensor data into a digital twin.",
+      "The prototype responds to changing conditions and shows the window's state in the digital model.",
+    ],
     technologies: [
       "Embedded Control",
       "IoT",
@@ -86,8 +98,11 @@ export const projects: Project[] = [
   {
     id: 5,
     title: "Bachelor Project - Physics-Based VR Interaction Prototype",
-    description:
-      "Developed as a bachelor project focused on designing and prototyping a physics-based interaction and movement system for virtual reality. The project explored how physical interaction principles could be translated into immersive VR mechanics, with emphasis on movement, responsiveness, and interaction feel.",
+    description: [
+      "My bachelor project explored how movement and interaction based on physical forces could feel responsive in VR.",
+      "I built a Unity prototype that used physics to drive movement and interactions.",
+      "The prototype made it possible to try the mechanics in VR and assess how they felt in use.",
+    ],
     technologies: [
       "Unity",
       "C#",

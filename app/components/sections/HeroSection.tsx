@@ -6,10 +6,6 @@ export default function HeroSection() {
   return (
     <section className="grid items-center gap-10 pt-16 lg:grid-cols-[1.4fr_0.9fr]">
       <div className="space-y-6">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#d9f0f3]">
-          Portfolio
-        </p>
-
         <div className="space-y-4">
           <h1 className="text-4xl font-bold tracking-tight text-white md:text-6xl">
             Tobias Pihl

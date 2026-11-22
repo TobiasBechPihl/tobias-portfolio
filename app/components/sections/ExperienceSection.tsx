@@ -62,7 +62,6 @@ export default function ExperienceSection() {
   return (
     <section id="experience" className="space-y-10 scroll-mt-6" aria-labelledby="experience-heading">
       <div className="space-y-3 text-[#f7f4dc]">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#d6ecc6]">Beyond the beach</p>
         <h2 id="experience-heading" className="text-3xl font-bold tracking-tight md:text-5xl">Experience</h2>
         <p className="max-w-2xl leading-7 text-[#e7f1df]">
           Practical work and volunteer roles where I have developed software, supported operations and worked with communities.

@@ -5,10 +5,6 @@ export default function ContactSection() {
       className="space-y-6 rounded-[28px] border border-[#e3e2c6] bg-[#f8f5e9] p-8 shadow-[0_15px_35px_rgba(20,62,33,0.18)]"
     >
       <div className="space-y-3">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#7b6f63]">
-          Contact
-        </p>
-
         <h2 className="text-3xl font-bold tracking-tight text-[#2e2e2e] md:text-4xl">
           Let’s connect
         </h2>
