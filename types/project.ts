@@ -2,7 +2,7 @@
 export type Project = {
   id: number;
   title: string;
-  description: [problem: string, solution: string, impact: string];
+  description: [purpose: string, engineering: string, value: string];
   technologies: string[];
   images: string[];
 };

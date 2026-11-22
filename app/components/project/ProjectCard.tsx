@@ -24,9 +24,11 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           style={{ clipPath: 'polygon(0 0, 100% 30%, 0 100%)' }}
         />
       </span>
-      <div className="overflow-hidden rounded-t-[26px] border-b border-[#d6c5ae] bg-[#f7f3ee] p-5">
-        <ImageSlider images={galleryImages} />
-      </div>
+      {galleryImages.length > 0 && (
+        <div className="overflow-hidden rounded-t-[26px] border-b border-[#d6c5ae] bg-[#f7f3ee] p-5">
+          <ImageSlider images={galleryImages} />
+        </div>
+      )}
 
       <div className="space-y-4 px-4 py-5 sm:px-6 sm:py-6">
         <div className="flex items-center justify-between gap-4">
