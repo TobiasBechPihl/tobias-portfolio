@@ -25,6 +25,90 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.sea-region {
+  color: #f8fcf8;
+  background-color: #317d94;
+  background-image:
+    radial-gradient(ellipse 70px 16px at 30px 20px, rgba(232, 249, 245, 0.19) 0 35%, transparent 38%),
+    radial-gradient(ellipse 70px 16px at 100px 65px, rgba(232, 249, 245, 0.13) 0 35%, transparent 38%),
+    linear-gradient(180deg, #66aabb 0%, #3b8ca4 38%, #246e85 100%);
+  background-size: 150px 100px, 150px 100px, auto;
+}
+
+.site-header {
+  border-bottom: 1px solid rgba(237, 249, 245, 0.46);
+}
+
+.beach-region {
+  background-color: #ead9b5;
+  background-image:
+    radial-gradient(circle at 18% 25%, rgba(255, 248, 225, 0.6) 0 2px, transparent 3px),
+    radial-gradient(circle at 72% 66%, rgba(123, 101, 75, 0.12) 0 2px, transparent 3px);
+  background-size: 80px 70px, 110px 90px;
+}
+
+.stone-field {
+  padding: 8px 5px 20px;
+}
+
+.skill-stone {
+  color: #243c43;
+  background: #e9e9dc;
+  border: 2px solid #c4bdab;
+  border-radius: 38% 62% 54% 46% / 13% 18% 16% 20%;
+  box-shadow: 6px 12px 0 rgba(119, 94, 65, 0.14), inset -10px -10px 20px rgba(130, 133, 114, 0.07);
+}
+
+.skill-stone:nth-child(2) {
+  margin-top: 42px;
+  background: #f3e7dc;
+  border-radius: 54% 46% 63% 37% / 18% 16% 20% 14%;
+}
+
+.skill-stone:nth-child(3) {
+  margin-left: 25px;
+  background: #dae3da;
+  border-radius: 44% 56% 40% 60% / 18% 14% 18% 16%;
+}
+
+.skill-stone:nth-child(4) {
+  margin-top: 52px;
+  margin-right: 24px;
+  background: #e7e0d4;
+}
+
+.lawn-region {
+  color: #f8f5e9;
+  background-color: #4b8057;
+  background-image:
+    repeating-linear-gradient(105deg, transparent 0 35px, rgba(214, 238, 180, 0.05) 36px 38px, transparent 39px 70px),
+    linear-gradient(180deg, #5e9567 0%, #3e704b 100%);
+}
+
+.experience-card {
+  color: #243c32;
+  background: #f8f5e9;
+  border: 1px solid #d4e1bd;
+  box-shadow: 0 14px 28px rgba(20, 62, 33, 0.18);
+}
+
+@media (max-width: 767px) {
+  .skill-stone:nth-child(n) {
+    margin: 0;
+    border-radius: 32px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 .justify-copy {
   text-align: justify;
   text-justify: inter-word;

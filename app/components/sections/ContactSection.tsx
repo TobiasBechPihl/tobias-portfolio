@@ -2,7 +2,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="space-y-6 rounded-[28px] border border-[#d6c5ae] bg-[#ede7de] p-8 shadow-[0_10px_30px_rgba(46,46,46,0.08)]"
+      className="space-y-6 rounded-[28px] border border-[#e3e2c6] bg-[#f8f5e9] p-8 shadow-[0_15px_35px_rgba(20,62,33,0.18)]"
     >
       <div className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#7b6f63]">
@@ -20,7 +20,7 @@ export default function ContactSection() {
 
       <div className="flex flex-col gap-4 text-base text-[#2e2e2e]">
         <a
-          href="mailto:your@email.com"
+          href="mailto:tobiasbpihl@gmail.com"
           className="w-fit transition hover:text-[#6fa4c7]"
         >
           tobiasbpihl@gmail.com

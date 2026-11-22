@@ -2,8 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Your Name | Portfolio',
-  description: 'Portfolio website built with Next.js',
+  title: 'Tobias Pihl | Portfolio',
+  description: 'Tobias Pihl — software development, technical training and interactive experiences.',
 };
 
 export default function RootLayout({

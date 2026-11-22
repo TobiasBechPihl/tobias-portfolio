@@ -3,23 +3,23 @@ import { projects } from '@/data/projects';
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="space-y-10">
+    <section id="projects" className="space-y-12 pt-24 scroll-mt-6">
       <div className="space-y-3">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#d9f0f3]">
           Projects
         </p>
 
-        <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
+        <h2 className="text-3xl font-bold tracking-tight text-white md:text-5xl">
           Selected work
         </h2>
 
-        <p className="max-w-2xl text-base leading-7 text-slate-600">
+        <p className="max-w-2xl text-base leading-7 text-[#e5f4f5]">
           A collection of projects that show how I build interfaces, solve
           problems, and turn ideas into usable products.
         </p>
       </div>
 
-      <div className="grid gap-8 md:grid-cols-2">
+      <div className="grid items-start gap-x-8 gap-y-16 pb-10 md:grid-cols-2">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
