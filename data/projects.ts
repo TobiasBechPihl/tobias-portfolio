@@ -39,7 +39,12 @@ export const projects: Project[] = [
       "SOP / Training Material",
       "Role & Training Tracking",
     ],
-    images: [],
+    images: [
+      "/images/projects/sop-upload.png",
+      "/images/projects/sop-qa-overview.png",
+      "/images/projects/sop-qa-comparison.png",
+      "/images/projects/sop-training-quiz.png",
+    ],
   },
   {
     id: 1,
